@@ -1,0 +1,114 @@
+.bg-theme{
+  background-color:#2C3335;
+}
+.topnav{
+  margin-left: auto;
+  
+}
+.btn-theme{
+  color: white;
+}
+.main_content{
+  color: white;
+  font-family: 'Alegreya SC';
+  text-align: center;
+  font-size: 25px;
+  padding-top: 220px;
+  padding-right: 30px;
+  padding-bottom: 250px;
+  padding-left: 80px;
+  background-image:url("http://www.mycodex.in/img/MainBack.webp");
+  background-size: cover;
+}
+h1{
+  font-family: 'Alegreya SC';
+  font-size: 100px;
+  text-align: center;
+}
+h2{
+  font-size:70px;
+}
+h3{
+  font-size: 45px;
+  font-weight: bold;
+}
+.course_content{
+  background-color:#EAF0F1;
+  font-family: 'Belgrano';
+  font-size: 20px;
+  text-align: center;
+  
+}
+.modal-header{
+  color:#45CE30;
+}
+.docode{
+  text-align: center;
+  background-color: #EAF0F1;
+  padding-left:100px ;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  padding-right:100px ;
+  font-size: 20px;
+  font-family: 'Belgrano';
+}
+.team{
+  text-align: center;
+  font-family: 'Belgrano';
+}
+#prithive{
+  background-color: #74B9FF;
+}
+#contactinfo{
+  text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #FF3E4D;
+  color: white;
+}
+
+#contactinfo{
+  text-align: center;
+}
+#address{
+  font-size: x-large;
+}
+#number{
+  font-size:x-large;
+}
+
+
+
+
+
+
+
+
+
+

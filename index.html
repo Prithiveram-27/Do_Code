@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website</title>
+  <link rel="stylesheet" href="csslib/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-sm  bg-theme navbar-dark ">
+      <a class="navbar-brand ml-5" href="#"><img src="assets/img/logo.png" style="width:50px"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse   " id="collapsibleNavbar">
+        <ul class="navbar-nav topnav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><button type="button" class="btn btn-md bg-theme text-light">HOME</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html"><button type="button" class="btn btn-md bg-theme text-light">ABOUT</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact.html"><button type="button" class="btn btn-md bg-theme text-light">CONTACT</button></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="main_content">
+      <h1>Do_Code</h1>
+      <p>Learn with Passion</p>
+    </div>
+
+    <div class="container-fluid course_content">
+      <br><h2>Courses</h2><br>
+      <div class="row ml-5">
+        
+        <div class="col">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="Assets/img/Angular2.webp" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Angular</h4>
+              <p class="card-text">Learn Angular from Scratch</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Enroll
+              </button>
+              
+              <!-- The Modal -->
+              <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+              
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Enrollment Successful!</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+              
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                      You have been enrolled for this course
+                    </div>
+              
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+              
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="Assets/img/React.webp" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">React JS</h4>
+              <p class="card-text">Learn React JS from Scratch</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Enroll
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="Assets/img/Python.webp" alt="Card image" style="width:100%; height:200px">
+            <div class="card-body">
+              <h4 class="card-title">Python</h4>
+              <p class="card-text">Python for beginners (From zero to Hero)</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Enroll
+              </button>
+            </div>
+          </div>
+        </div>
+      </div><br>
+
+      <div class="row ml-5 ">
+
+        <div class="col">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="Assets/img/Mongo.webp" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">MongoDB</h4>
+              <p class="card-text">A project based learning with MongoDB </p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Enroll
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="Assets/img/Node.webp" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">Node Js</h4>
+              <p class="card-text">Build Projects with Node JS</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Enroll
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="Assets/img/Boot.webp" alt="Card image" style="width:100%;height:180px ">
+            <div class="card-body">
+              <h4 class="card-title">Spring boot</h4>
+              <p class="card-text">Core Java and Spring Framework</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Enroll
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  
+
+  <footer>
+    <div class="footer-block">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 pt-2 mx-auto text-center bg-dark text-light">
+            <h6>    &copy; copyright 2020.All Rights Reserved | Do_Code</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
